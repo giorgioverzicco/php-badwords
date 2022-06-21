@@ -23,7 +23,9 @@ $text_censored = str_replace($bad_word, '***', $text);
       <p>
         <?= $text ?>
       </p>
-      <p>Numero di caratteri: <?= mb_strlen($text) ?>
+      <p>
+        Numero di caratteri: <?= mb_strlen($text) ?>
+      </p>
     </section>
 
     <section>
@@ -31,7 +33,9 @@ $text_censored = str_replace($bad_word, '***', $text);
       <p>
         <?= $text_censored ?>
       </p>
-      <p>Numero di caratteri: <?= mb_strlen($text_censored) ?>
+      <p>
+        Numero di caratteri: <?= mb_strlen($text_censored) ?>
+      </p>
     </section>
   </main>
 </body>
